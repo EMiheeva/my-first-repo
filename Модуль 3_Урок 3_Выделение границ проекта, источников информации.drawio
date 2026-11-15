@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Лист 1: диаграмма Use Case" id="dPBj-SCknk7yQydZr0W2">
+    <mxGraphModel dx="2011" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="890" width="700" x="-120" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-43" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;" target="CYkbQRYC2PDyEO5Wvc8e-42">
+          <mxGeometry relative="1" x="-0.0011" as="geometry">
+            <mxPoint x="-170" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-3" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;" target="BnVcQVZAah5H9Et9NJHH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-7" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;" target="CYkbQRYC2PDyEO5Wvc8e-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-11" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;" target="BnVcQVZAah5H9Et9NJHH-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-13" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;" target="CYkbQRYC2PDyEO5Wvc8e-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Пользователь&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="-200" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-52" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="CYkbQRYC2PDyEO5Wvc8e-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-54" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="CYkbQRYC2PDyEO5Wvc8e-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-56" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="CYkbQRYC2PDyEO5Wvc8e-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Внешняя система" vertex="1">
+          <mxGeometry height="60" width="30" x="630" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-27" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="CYkbQRYC2PDyEO5Wvc8e-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-28" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="CYkbQRYC2PDyEO5Wvc8e-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-30" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="CYkbQRYC2PDyEO5Wvc8e-29">
+          <mxGeometry relative="1" x="0.0518" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-47" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="CYkbQRYC2PDyEO5Wvc8e-44">
+          <mxGeometry relative="1" x="0.0503" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-49" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="CYkbQRYC2PDyEO5Wvc8e-48">
+          <mxGeometry relative="1" x="0.1438" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Администратор" vertex="1">
+          <mxGeometry height="60" width="30" x="660" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-31" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;" target="CYkbQRYC2PDyEO5Wvc8e-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-32" connectable="0" parent="CYkbQRYC2PDyEO5Wvc8e-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0107" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Войти в систему" vertex="1">
+          <mxGeometry height="55" width="110" x="150" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Выпустить токен" vertex="1">
+          <mxGeometry height="55" width="110" x="380" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Подтвердить регистрацию" vertex="1">
+          <mxGeometry height="55" width="110" x="260" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Заблокировать аккаунт" vertex="1">
+          <mxGeometry height="55" width="110" x="260" y="477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Восстановить пароль" vertex="1">
+          <mxGeometry height="60" width="110" x="-75" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-39" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="CYkbQRYC2PDyEO5Wvc8e-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135.8563135669492" y="340.4174850695417" as="sourcePoint" />
+            <mxPoint x="93.49072841504812" y="204.6703309281554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-40" connectable="0" parent="CYkbQRYC2PDyEO5Wvc8e-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2758" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Пройти 2FA" vertex="1">
+          <mxGeometry height="60" width="110" x="165" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-5" edge="1" parent="1" source="CYkbQRYC2PDyEO5Wvc8e-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=classic;endFill=1;dashed=1;" target="BnVcQVZAah5H9Et9NJHH-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-6" connectable="0" parent="BnVcQVZAah5H9Et9NJHH-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0067" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Выйти из системы" vertex="1">
+          <mxGeometry height="55" width="110" x="-70" y="477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Разблокировать аккаунт" vertex="1">
+          <mxGeometry height="55" width="110" x="260" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Управлять правами и ролями" vertex="1">
+          <mxGeometry height="55" width="110" x="260" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-50" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Проверить валидность токена" vertex="1">
+          <mxGeometry height="60" width="110" x="340" y="-135" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-53" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Обновить токен" vertex="1">
+          <mxGeometry height="55" width="110" x="340" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="CYkbQRYC2PDyEO5Wvc8e-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Проверить права доступа" vertex="1">
+          <mxGeometry height="55" width="110" x="340" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-1" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Система аутентификации" vertex="1">
+          <mxGeometry height="26" width="80" x="180" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Зарегистрироваться" vertex="1">
+          <mxGeometry height="60" width="120" x="-40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Отозвать токен" vertex="1">
+          <mxGeometry height="55" width="110" x="90" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="BnVcQVZAah5H9Et9NJHH-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Сменить пароль" vertex="1">
+          <mxGeometry height="55" width="120" x="-50" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LCaIYKN1WVtuhHQRhrGQ" name="Лист 2: список стейкхолдеров и источников">
+    <mxGraphModel dx="1807" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nU0BikTqOVG3a3DzhvDk-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Список стейкхолдеров&lt;/h1&gt;&lt;p&gt;1) Конечные пользователи клиенты&lt;/p&gt;&lt;p&gt;Роль: основные потребители сервиса. Иметь быстрый, удобный и понятный процесс регистрации, входа и восстановления пароля без лишних шагов, а также быть уверенным в сохранности своего аккаунта&lt;/p&gt;&lt;p&gt;2) Отдел информационной безопасности&lt;/p&gt;&lt;p&gt;Роль: контроль защиты данных и соблюдения регламентов. Предотвратить несанкционированный доступ, обеспечить надежное хранение паролей, внедрить двухфакторную аутентификацию и соответствовать требованиям законодательства по защите персональных данных&lt;/p&gt;&lt;p&gt;3) Администраторы системы и служба поддержки&lt;/p&gt;&lt;p&gt;Роль: операционное управление и помощь пользователям. Иметь удобные инструменты для подтверждения учетных записей, быстрой блокировки/разблокировки подозрительных аккаунтов и гибкой настройки ролей и прав доступа.&lt;/p&gt;&lt;p&gt;4) Внешние системы&lt;/p&gt;&lt;p&gt;Роль: внутренние технические потребители API. Сервис должен работать стабильно и без задержек проверять валидность токенов и права доступа пользователей при обращении к другим модулям продукта&lt;/p&gt;" vertex="1">
+          <mxGeometry height="460" width="470" x="70" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nU0BikTqOVG3a3DzhvDk-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Источники информации&lt;/h1&gt;&lt;p&gt;1) Интервью с экспертами и внутренними командами&lt;/p&gt;&lt;p&gt;Общение со специалистами по ИБ для выяснения правил сложности паролей, сроков жизни токенов и сценариев блокировок, и разработчиками внешних систем для согласования форматов интеграции и передачи прав&lt;/p&gt;&lt;p&gt;2) Отраслевые стандарты и нормативно-правовая база&lt;/p&gt;&lt;p&gt;Изучение протоколов безопасности OAuth, OpenID Connect, требования законодательства о защите персональных данных, федеральные законы&lt;/p&gt;&lt;p&gt;3) Бенчмаркинг&lt;/p&gt;&lt;p&gt;Исследование популярных систем управление доступом и пользовательских сценариев входа в современных веб-сервисах для формирования базового списка функций&lt;/p&gt;" vertex="1">
+          <mxGeometry height="400" width="410" x="570" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
