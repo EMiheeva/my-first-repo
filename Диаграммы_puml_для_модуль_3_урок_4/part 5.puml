@@ -1,0 +1,29 @@
+@startuml entity_role
+skinparam Linetype ortho
+
+skinparam nodesep 140
+skinparam ranksep 140
+
+state "Черновик" as draft
+state "На согласовании ИБ" as review
+state "Активна" as active
+state "Устарела" as deprecated
+state "Архивный" as archived
+
+[*] --> draft : [Администратор создал новую роль]
+
+
+draft --> review : [набор разрешений сформирован и отправлен на проверку]
+review --> active : [отдел ИБ согласовал список прав]
+review --> draft : [возврат сделать правки (отправлено на доработку)]
+
+active --> deprecated : [выпущена новая версия роли/функционал устарел]
+deprecated --> active : [роль возвращена в использование]
+
+
+deprecated --> archived : [все пользователи переведены на другие роли]
+active --> archived : [роль удалена администратором]
+
+
+archived --> [*]
+@enduml

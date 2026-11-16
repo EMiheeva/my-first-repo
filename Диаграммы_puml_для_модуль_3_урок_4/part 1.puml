@@ -1,0 +1,37 @@
+@startuml entity_user_account
+skinparam Linetype ortho
+
+skinparam nodesep 140
+skinparam ranksep 140
+
+
+state "Черновик/Не подтверждена" as unverified
+state "На модерации" as moderation
+state "Активна" as active
+state "Временно заморожена" as suspended
+state "Заблокирована" as blocked
+state "Удалена" as deleted
+
+[*] --> unverified : [Пользователь отправил форму регистрации]
+
+unverified --> moderation : [email подтвержден/требуется проверка администратора]
+unverified --> active : [email подтвержден/автоактивация]
+unverified --> deleted : [истек срок подтверждения email]
+
+
+moderation --> active : [администратор подтвердил регистрацию]
+moderation --> deleted : [администратор отклонил регистрацию]
+
+
+active --> suspended : [превышен лимит неудачных попыток входа]
+suspended --> active : [истек таймер заморозки/сброса пароля]
+suspended --> blocked : [администратор подтвердил взлом системы]
+
+active --> blocked : [администратор заблокировал аккаунт]
+blocked --> active : [администратор разблокировал аккаунт]
+
+active --> deleted : [пользователь удалил аккаунт]
+blocked --> deleted : [администратор удалил аккаунт]
+
+deleted --> [*]
+@enduml
