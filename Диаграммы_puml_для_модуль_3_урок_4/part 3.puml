@@ -1,0 +1,29 @@
+@startuml entity_role_assignment
+skinparam Linetype ortho
+
+skinparam nodesep 140
+skinparam ranksep 140
+
+state "Запрошена" as requested
+state "Активна" as active
+state "Приостановлена" as suspended
+state "Отозвана" as revoked
+
+[*] --> requested : [создана заявка на получение роли]
+[*] --> active : [администратор напрямую назначил роль]
+
+
+requested --> active : [администратор согласовал выдачу прав]
+requested --> revoked : [администратор отклонил заявку]
+
+
+active --> suspended : [аккаунт пользователя заморожен или заблокирован]
+suspended --> active : [аккаунт пользователя разблокирован]
+
+
+active --> revoked : [администратор снял роль/истек срок действия]
+suspended --> revoked : [администратор снял роль]
+
+
+revoked --> [*]
+@enduml

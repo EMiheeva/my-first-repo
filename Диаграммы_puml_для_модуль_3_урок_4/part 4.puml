@@ -1,0 +1,29 @@
+@startuml entity_user
+skinparam Linetype ortho
+
+skinparam nodesep 140
+skinparam ranksep 140
+
+state "Неидентифицированный (Гость)" as guest
+state "На верификации" as verification
+state "Верифицированный пользователь" as verified
+state "Ограничен в правах" as restricted
+state "Архивный" as archived
+
+[*] --> quest : [Первая регистрация]
+
+
+guest --> verification : [переданы персональные данные и согласия]
+verification --> verified : [личность и контакты подтверждены]
+verification --> guest : [данные не прошли проверку]
+
+verified --> restricted : [отзыв согласия на обработку данных/нарушение правил]
+restricted --> verified : [повторное согласие/снятие ограничений]
+
+
+verified --> archived : [запрос на удаление персональных данных]
+restricted --> archived : [истёк срок хранения данных]
+
+
+archived --> [*]
+@enduml

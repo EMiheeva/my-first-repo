@@ -1,0 +1,41 @@
+@startuml
+hide empty description
+
+' Объявляем состояния (идентификатор as "Отображаемая метка")
+state pending as "Ожидает обработки"
+state payment_check as "Проверка_платежа"
+state stock_check as "Проверка_наличия"
+state packaging as "Упаковка"
+state delivery as "Доставка"
+state cancelled as "Отменен"
+state completed as "Завершен"
+
+' Начало
+[*] --> pending
+
+' Ветвления проверки
+' Fork - толстая линия с разветвлением
+state fork1 <<fork>>
+pending --> fork1
+pending --> fork1
+fork1 --> payment_check
+fork1 --> stock_check
+
+' Условия для отмены
+payment_check --> cancelled : [платёж не прошёл]
+stock_check --> cancelled : [нет на складе]
+
+' Join - толста линия с множеством входящих в нее линий
+state join1 <<fork>>
+payment_check --> join1
+stock_check --> join1
+join1 --> packaging
+
+
+packaging --> delivery
+delivery --> completed
+
+' Финальные состояния
+completed --> [*]
+cancelled --> [*]
+@enduml

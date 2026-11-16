@@ -1,0 +1,33 @@
+@startuml entity_session_token
+skinparam Linetype ortho
+
+skinparam nodesep 140
+skinparam ranksep 140
+
+state "Инициализирована (Ожидает 2FA)" as pending_2fa
+state "Активна" as active
+state "На обновлении" as refreshing
+state "Истекла" as expired
+state "Отозвана" as revoked
+
+[*] --> pending_2fa : [логин и пароль верны (включена 2FA)]
+[*] --> active : [логин и пароль верны (отключена 2FA)]
+
+
+pending_2fa --> active : [код 2FA введён верно]
+pending_2fa --> revoked : [превышены попытки 2FA/истек таймаут]
+
+
+active --> refreshing : [запрос на обновление по Refresh-токену]
+refreshing --> active : [выпущена новая пара токенов]
+refreshing --> revoked : [Refresh-токен невалиден]
+
+
+active --> expired : [истек срок жизни токена]
+active --> revoked : [пользователь нажал "Выйти из системы"]
+active --> revoked : [пароль изменён/аккаунт заблокирован]
+
+
+expired --> [*]
+revoked --> [*]
+@enduml
